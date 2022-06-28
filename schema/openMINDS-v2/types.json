@@ -1,0 +1,475 @@
+{
+    "https://openminds.ebrains.eu/controlledTerms/AgeCategory": {
+        "description": "Structured information on the life cycle (semantic term) of a specific age group.",
+        "label": "Age category",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/controlledTerms/AnatomicalAxesOrientation": {
+        "description": "Structured information on the anatomical directions of the X, Y, and Z axis.",
+        "label": "Anatomical axes orientation",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/controlledTerms/BehavioralTask": {
+        "description": "Structured information on the behavioral task that had to be peformed by a subject.",
+        "label": "Behavioral task",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/controlledTerms/BiologicalSex": {
+        "description": "Structured information on the biological sex of a subject.",
+        "label": "Biological sex",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/controlledTerms/CellType": {
+        "description": null,
+        "label": "Cell type"
+    },
+    "https://openminds.ebrains.eu/controlledTerms/ContributionType": {
+        "description": "Structured information on the type of contribution a person or organization performed.",
+        "label": "Contribution type",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/controlledTerms/CriteriaQualityType": {
+        "description": "Structured information on the quality type of the defined criteria for a measurement.",
+        "label": "Criteria quality type",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/controlledTerms/Disease": {
+        "description": "Structured information on a disease.",
+        "label": "Disease",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/controlledTerms/DiseaseModel": {
+        "description": null,
+        "label": "Disease model"
+    },
+    "https://openminds.ebrains.eu/controlledTerms/EthicsAssessment": {
+        "description": "Structured information on the ethics assessment of a dataset.",
+        "label": "Ethics assessment",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/controlledTerms/ExperimentalApproach": {
+        "description": null,
+        "label": "Experimental approach"
+    },
+    "https://openminds.ebrains.eu/controlledTerms/FileBundleGrouping": {
+        "description": "Structured information on the grouping mechanism of a file bundle.",
+        "label": "File bundle grouping",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/controlledTerms/FileRepositoryType": {
+        "description": null,
+        "label": "File repository type"
+    },
+    "https://openminds.ebrains.eu/controlledTerms/FileUsageRole": {
+        "description": "Structured information on the usage role of a file instance or bundle.",
+        "label": "File usage role",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/controlledTerms/Handedness": {
+        "description": null,
+        "label": "Handedness"
+    },
+    "https://openminds.ebrains.eu/controlledTerms/Language": {
+        "description": "Structured information on the available language setting.",
+        "label": "Language",
+        "translatableTo": [
+            "https://schema.org/Language"
+        ]
+    },
+    "https://openminds.ebrains.eu/controlledTerms/Laterality": {
+        "description": "Structured information on the lateral direction.",
+        "label": "Laterality",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType": {
+        "description": null,
+        "label": "Meta data model type"
+    },
+    "https://openminds.ebrains.eu/controlledTerms/ModelAbstractionLevel": {
+        "description": "Structured information on abstraction level of the computational model.",
+        "label": "Model abstraction level",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/controlledTerms/ModelScope": {
+        "description": "Structured information on the scope of the computational model.",
+        "label": "Model scope",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/controlledTerms/OperatingDevice": {
+        "description": "Structured information on the operating device.",
+        "label": "Operating device",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/controlledTerms/OperatingSystem": {
+        "description": "Structured information on the operating system.",
+        "label": "Operating system",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/controlledTerms/Organ": {
+        "description": null,
+        "label": "Organ"
+    },
+    "https://openminds.ebrains.eu/controlledTerms/Phenotype": {
+        "description": "Structured information on the phenotype of a subject.",
+        "label": "Phenotype",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/controlledTerms/PreparationType": {
+        "description": null,
+        "label": "Preparation type"
+    },
+    "https://openminds.ebrains.eu/controlledTerms/ProductAccessibility": {
+        "description": null,
+        "label": "Product accessibility"
+    },
+    "https://openminds.ebrains.eu/controlledTerms/ProgrammingLanguage": {
+        "description": "Structured information on the programming language.",
+        "label": "Programming language",
+        "translatableTo": [
+            "https://schema.org/ComputerLanguage"
+        ]
+    },
+    "https://openminds.ebrains.eu/controlledTerms/QualitativeOverlap": {
+        "description": null,
+        "label": "Qualitative overlap"
+    },
+    "https://openminds.ebrains.eu/controlledTerms/SemanticDataType": {
+        "description": null,
+        "label": "Semantic data type"
+    },
+    "https://openminds.ebrains.eu/controlledTerms/SoftwareApplicationCategory": {
+        "description": "Structured information on the category of the software application.",
+        "label": "Software application category",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/controlledTerms/SoftwareFeature": {
+        "description": null,
+        "label": "Software feature"
+    },
+    "https://openminds.ebrains.eu/controlledTerms/Species": {
+        "description": "Structured information on the species.",
+        "label": "Species",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/controlledTerms/Strain": {
+        "description": null,
+        "label": "Strain"
+    },
+    "https://openminds.ebrains.eu/controlledTerms/Technique": {
+        "description": "Structured information on the technique.",
+        "label": "Technique",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/controlledTerms/TermSuggestion": {
+        "description": null,
+        "label": "Term suggestion"
+    },
+    "https://openminds.ebrains.eu/controlledTerms/Terminology": {
+        "description": null,
+        "label": "Terminology"
+    },
+    "https://openminds.ebrains.eu/controlledTerms/TissueSampleType": {
+        "description": "Structured information on the general type of the tissue sample.",
+        "label": "Tissue sample type",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/controlledTerms/TypeOfUncertainty": {
+        "description": null,
+        "label": "Type of uncertainty"
+    },
+    "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation": {
+        "description": null,
+        "label": "Uberonparcellation"
+    },
+    "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement": {
+        "description": "Structured information on the unit of measurement.",
+        "label": "Unit of measurement",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/core/Affiliation": {
+        "description": null,
+        "label": "Affiliation"
+    },
+    "https://openminds.ebrains.eu/core/ContactInformation": {
+        "description": null,
+        "label": "Contact information"
+    },
+    "https://openminds.ebrains.eu/core/ContentType": {
+        "description": "Structured information on the content type of a file instance, bundle or repository.",
+        "label": "Content type",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/core/Contribution": {
+        "description": "Structured information on the contribution made to a research product.",
+        "label": "Contribution",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/core/Copyright": {
+        "description": "Structured information on the copyright.",
+        "label": "Copyright",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/core/DOI": {
+        "description": null,
+        "label": "DOI"
+    },
+    "https://openminds.ebrains.eu/core/Dataset": {
+        "description": "Structured information on data originating from human/animal studies or simulations (concept level).",
+        "label": "Dataset",
+        "translatableTo": [
+            "https://schema.org/Dataset"
+        ]
+    },
+    "https://openminds.ebrains.eu/core/DatasetVersion": {
+        "description": "Structured information on data originating from human/animal studies or simulations (version level).",
+        "label": "Dataset version",
+        "translatableTo": [
+            "https://schema.org/Dataset"
+        ]
+    },
+    "https://openminds.ebrains.eu/core/File": {
+        "description": "Structured information on a file instances.",
+        "label": "File",
+        "translatableTo": [
+            "https://schema.org/DigitalDocument"
+        ]
+    },
+    "https://openminds.ebrains.eu/core/FileBundle": {
+        "description": "Structured information on a bundle of file instances.",
+        "label": "File bundle",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/core/FileRepository": {
+        "description": "Structured information on a file repository.",
+        "label": "File repository",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/core/Funding": {
+        "description": "Structured information on used funding.",
+        "label": "Funding",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/core/GRIDID": {
+        "description": null,
+        "label": "GRIDID"
+    },
+    "https://openminds.ebrains.eu/core/Hash": {
+        "description": "Structured information on a hash.",
+        "label": "Hash",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/core/ISBN": {
+        "description": null,
+        "label": "ISBN"
+    },
+    "https://openminds.ebrains.eu/core/License": {
+        "description": "Structured information on a used license.",
+        "label": "License",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/core/MetaDataModel": {
+        "description": null,
+        "label": "(Meta) Data model"
+    },
+    "https://openminds.ebrains.eu/core/MetaDataModelVersion": {
+        "description": null,
+        "label": "(Meta) Data model version"
+    },
+    "https://openminds.ebrains.eu/core/Model": {
+        "description": "Structured information on a computational model (concept level).",
+        "label": "Model",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/core/ModelVersion": {
+        "description": "Structured information on a computational model (version level).",
+        "label": "Model version",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/core/NumericalParameter": {
+        "description": null,
+        "label": "Numerical parameter"
+    },
+    "https://openminds.ebrains.eu/core/ORCID": {
+        "description": null,
+        "label": "ORCID"
+    },
+    "https://openminds.ebrains.eu/core/Organization": {
+        "description": "Structured information on an organization.",
+        "label": "Organization",
+        "translatableTo": [
+            "https://schema.org/Organization"
+        ]
+    },
+    "https://openminds.ebrains.eu/core/ParameterSet": {
+        "description": "Structured information on a used parameter set.",
+        "label": "Parameter set"
+    },
+    "https://openminds.ebrains.eu/core/Person": {
+        "description": "Structured information on a person.",
+        "label": "Person",
+        "translatableTo": [
+            "https://schema.org/Person"
+        ]
+    },
+    "https://openminds.ebrains.eu/core/Project": {
+        "description": "Structured information on a research project.",
+        "label": "Project",
+        "translatableTo": [
+            "https://schema.org/Project"
+        ]
+    },
+    "https://openminds.ebrains.eu/core/Protocol": {
+        "description": "Structured information on a research project.",
+        "label": "Protocol",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/core/ProtocolExecution": {
+        "description": "Structured information on a protocol execution.",
+        "label": "Protocol execution",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/core/QuantitativeValue": {
+        "description": "Structured information on a quantitative value.",
+        "label": "Quantitative value",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/core/QuantitativeValueRange": {
+        "description": null,
+        "label": "Quantitative value range"
+    },
+    "https://openminds.ebrains.eu/core/RORID": {
+        "description": null,
+        "label": "RORID"
+    },
+    "https://openminds.ebrains.eu/core/SWHID": {
+        "description": null,
+        "label": "SWHID"
+    },
+    "https://openminds.ebrains.eu/core/Software": {
+        "description": "Structured information on a software tool (concept level).",
+        "label": "Software",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/core/SoftwareVersion": {
+        "description": null,
+        "label": "Software version"
+    },
+    "https://openminds.ebrains.eu/core/StringParameter": {
+        "description": null,
+        "label": "String parameter"
+    },
+    "https://openminds.ebrains.eu/core/Subject": {
+        "description": "Structured information on a subject.",
+        "label": "Subject",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/core/SubjectGroup": {
+        "description": null,
+        "label": "Subject group"
+    },
+    "https://openminds.ebrains.eu/core/SubjectGroupState": {
+        "description": null,
+        "label": "Subject group state"
+    },
+    "https://openminds.ebrains.eu/core/SubjectState": {
+        "description": "Structured information on a temporary state of a subject.",
+        "label": "Subject state",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/core/TissueSample": {
+        "description": "Structured information on a tissue sample.",
+        "label": "Tissue sample",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/core/TissueSampleCollection": {
+        "description": null,
+        "label": "Tissue sample collection"
+    },
+    "https://openminds.ebrains.eu/core/TissueSampleCollectionState": {
+        "description": null,
+        "label": "Tissue sample collection state"
+    },
+    "https://openminds.ebrains.eu/core/TissueSampleState": {
+        "description": "Structured information on a temporary state of a tissue sample.",
+        "label": "Tissue sample state",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/core/URL": {
+        "description": null,
+        "label": "Url"
+    },
+    "https://openminds.ebrains.eu/sands/AtlasAnnotation": {
+        "deprecated": true,
+        "description": null,
+        "label": "Atlas annotation"
+    },
+    "https://openminds.ebrains.eu/sands/BrainAtlas": {
+        "description": "Structured information on a brain atlas (concept level).",
+        "label": "Brain atlas",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/sands/BrainAtlasVersion": {
+        "description": "Structured information on a brain atlas (version level).",
+        "label": "Brain atlas version",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/sands/CommonCoordinateSpace": {
+        "deprecated": true,
+        "description": null,
+        "label": "Common coordinate space"
+    },
+    "https://openminds.ebrains.eu/sands/CoordinatePoint": {
+        "description": "Structured information on a coordinate point.",
+        "label": "Coordinate point",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/sands/CustomAnatomicalEntity": {
+        "deprecated": true,
+        "description": null,
+        "label": "Custom anatomical entity"
+    },
+    "https://openminds.ebrains.eu/sands/CustomAnnotation": {
+        "deprecated": true,
+        "description": null,
+        "label": "Custom annotation"
+    },
+    "https://openminds.ebrains.eu/sands/CustomCoordinateSpace": {
+        "deprecated": true,
+        "description": null,
+        "label": "Custom coordinate space"
+    },
+    "https://openminds.ebrains.eu/sands/Electrode": {
+        "description": "Structured information on an electrode.",
+        "label": "Electrode",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/sands/ElectrodeArray": {
+        "description": "Structured information on an electrode array.",
+        "label": "Electrode array",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/sands/ElectrodeContact": {
+        "description": "Structured information on an electrode contact.",
+        "label": "Electrode contact",
+        "translatableTo": null
+    },
+    "https://openminds.ebrains.eu/sands/ParcellationEntity": {
+        "deprecated": true,
+        "description": null,
+        "label": "Parcellation entity"
+    },
+    "https://openminds.ebrains.eu/sands/ParcellationTerminology": {
+        "description": null,
+        "label": "Parcellation terminology"
+    },
+    "https://openminds.ebrains.eu/sands/QualitativeRelationAssessment": {
+        "deprecated": true,
+        "description": null,
+        "label": "Qualitative relation assessment"
+    },
+    "https://openminds.ebrains.eu/sands/QuantitativeRelationAssessment": {
+        "deprecated": true,
+        "description": null,
+        "label": "Quantitative relation assessment"
+    }
+}

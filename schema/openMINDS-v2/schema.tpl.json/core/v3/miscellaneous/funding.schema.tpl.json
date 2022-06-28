@@ -1,0 +1,36 @@
+{
+    "_type": "https://openminds.ebrains.eu/core/Funding",
+    "required": [
+        "funder"
+    ],
+    "properties": {
+        "acknowledgement": {
+            "type": "string",
+            "_instruction": "Enter the acknowledgement that should be used with this funding.",
+            "description": "Offical declaration or avowal of appreciation of an act or achievement.",
+            "title": "acknowledgement"
+        },
+        "awardNumber": {
+            "type": "string",
+            "_instruction": "Enter the associated award number of this funding.",
+            "description": "Machine-readable identifier for a benefit that is conferred or bestowed on the basis of merit or need.",
+            "title": "awardNumber"
+        },
+        "awardTitle": {
+            "type": "string",
+            "_instruction": "Enter the award title of this funding.",
+            "description": "Human-readable identifier for a benefit that is conferred or bestowed on the basis of merit or need.",
+            "title": "awardTitle"
+        },
+        "funder": {
+            "_instruction": "Add the organization that provided this funding.",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/core/Organization",
+                "https://openminds.ebrains.eu/core/Person"
+            ],
+            "description": "Legal person that provides money for a particular purpose.",
+            "title": "funder"
+        }
+    },
+    "description": "Structured information on used funding."
+}

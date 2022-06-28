@@ -1,0 +1,29 @@
+{
+    "_type": "https://openminds.ebrains.eu/core/QuantitativeValueRange",
+    "required": [
+        "maxValue",
+        "minValue"
+    ],
+    "properties": {
+        "maxValue": {
+            "type": "number",
+            "_instruction": "Add the maximum value measured for this range.",
+            "description": "Greatest quantity attained or allowed.",
+            "title": "maxValue"
+        },
+        "minValue": {
+            "type": "number",
+            "_instruction": "Add the minimum value measured for this range.",
+            "description": "Smallest quantity attained or allowed.",
+            "title": "minValue"
+        },
+        "unit": {
+            "_instruction": "Add the unit of measurement of this quantitative value range.",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
+            ],
+            "description": "Determinate quantity adopted as a standard of measurement.",
+            "title": "unit"
+        }
+    }
+}

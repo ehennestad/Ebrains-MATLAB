@@ -1,0 +1,22 @@
+{
+    "_type": "https://openminds.ebrains.eu/core/Hash",
+    "required": [
+        "algorithm",
+        "digest"
+    ],
+    "properties": {
+        "algorithm": {
+            "type": "string",
+            "_instruction": "Enter the algorithm used to generate this hash.",
+            "description": "Procedure for solving a mathematical problem in a finite number of steps. Can involve repetition of an operation.",
+            "title": "algorithm"
+        },
+        "digest": {
+            "type": "string",
+            "_instruction": "Enter the digest of this hash.",
+            "description": "Summation or condensation of a body of information.",
+            "title": "digest"
+        }
+    },
+    "description": "Structured information on a hash."
+}

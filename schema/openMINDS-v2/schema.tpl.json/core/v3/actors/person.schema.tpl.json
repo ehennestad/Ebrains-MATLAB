@@ -1,0 +1,54 @@
+{
+    "_type": "https://openminds.ebrains.eu/core/Person",
+    "_categories": [
+        "legalPerson"
+    ],
+    "required": [
+        "givenName"
+    ],
+    "properties": {
+        "digitalIdentifier": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "_instruction": "Add one or several globally unique and persistent digital identifier for this person.",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/core/ORCID"
+            ],
+            "description": "Digital handle to identify objects or legal persons.",
+            "title": "digitalIdentifier"
+        },
+        "contactInformation": {
+            "_instruction": "Add the contact information of this person.",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/core/ContactInformation"
+            ],
+            "description": "Any available way used to contact a person or business (e.g., address, phone number, email address, etc.).",
+            "title": "contactInformation"
+        },
+        "familyName": {
+            "type": "string",
+            "_instruction": "Enter the family name of this person.",
+            "description": "Name borne in common by members of a family.",
+            "title": "familyName"
+        },
+        "givenName": {
+            "type": "string",
+            "_instruction": "Enter the given name of this person.",
+            "description": "Name given to a person, including all potential middle names, but excluding the family name.",
+            "title": "givenName"
+        },
+        "affiliation": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "_instruction": "Add the current and, if necessary, past affiliations of this person",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/Affiliation"
+            ],
+            "description": "Declaration of a person being closely associated to an organization.",
+            "title": "affiliation"
+        }
+    },
+    "description": "Structured information on a person."
+}

@@ -1,0 +1,68 @@
+{
+    "_type": "https://openminds.ebrains.eu/core/Project",
+    "required": [
+        "description",
+        "fullName",
+        "hasResearchProducts",
+        "shortName"
+    ],
+    "properties": {
+        "description": {
+            "type": "string",
+            "_instruction": "Enter a description of this project.",
+            "description": "Longer statement or account giving the characteristics of someone or something.",
+            "title": "description"
+        },
+        "fullName": {
+            "type": "string",
+            "_instruction": "Enter a descriptive full name (title) for this project.",
+            "description": "Whole, non-abbreviated name of something or somebody.",
+            "title": "fullName"
+        },
+        "hasResearchProducts": {
+            "type": "array",
+            "minItems": 2,
+            "uniqueItems": true,
+            "_instruction": "Add all research products or research product versions that are part of this project.",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/core/Dataset",
+                "https://openminds.ebrains.eu/core/DatasetVersion",
+                "https://openminds.ebrains.eu/core/MetaDataModel",
+                "https://openminds.ebrains.eu/core/MetaDataModelVersion",
+                "https://openminds.ebrains.eu/core/Model",
+                "https://openminds.ebrains.eu/core/ModelVersion",
+                "https://openminds.ebrains.eu/core/Software",
+                "https://openminds.ebrains.eu/core/SoftwareVersion"
+            ],
+            "description": "Reference to subsidiary research products.",
+            "title": "hasResearchProducts"
+        },
+        "homepage": {
+            "_instruction": "Add the uniform resource locator (URL) to the homepage of this project.",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/core/URL"
+            ],
+            "description": "Main website of something or someone.",
+            "title": "homepage"
+        },
+        "coordinator": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "_instruction": "Add one or several project coordinators (person or organization).",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/core/Organization",
+                "https://openminds.ebrains.eu/core/Person"
+            ],
+            "description": "Legal person who organizes the collaborative work of people or groups.",
+            "title": "coordinator"
+        },
+        "shortName": {
+            "type": "string",
+            "_instruction": "Enter a short name (alias) for this project.",
+            "description": "Shortened or fully abbreviated name of something or somebody.",
+            "title": "shortName"
+        }
+    },
+    "description": "Structured information on a research project."
+}

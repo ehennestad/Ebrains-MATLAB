@@ -1,0 +1,34 @@
+{
+    "_type": "https://openminds.ebrains.eu/core/Affiliation",
+    "required": [
+        "organization"
+    ],
+    "properties": {
+        "startDate": {
+            "_formats": [
+                "date"
+            ],
+            "type": "string",
+            "_instruction": "Enter the start date of this affiliation.",
+            "description": "Date in the Gregorian calendar at which something begins in time",
+            "title": "startDate"
+        },
+        "endDate": {
+            "_formats": [
+                "date"
+            ],
+            "type": "string",
+            "_instruction": "Enter the end date of this affiliation. Leave blank if the affiliation is still current.",
+            "description": "Date in the Gregorian calendar at which something terminates in time.",
+            "title": "endDate"
+        },
+        "organization": {
+            "_instruction": "Add organization to which a person is or was affiliated.",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/core/Organization"
+            ],
+            "description": "Legally accountable, administrative and functional structure.",
+            "title": "organization"
+        }
+    }
+}

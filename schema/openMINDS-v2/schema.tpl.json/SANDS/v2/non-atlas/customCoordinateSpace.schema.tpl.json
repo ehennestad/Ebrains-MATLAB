@@ -1,0 +1,57 @@
+{
+    "_type": "https://openminds.ebrains.eu/sands/CustomCoordinateSpace",
+    "required": [
+        "anatomicalAxesOrientation",
+        "axesOrigin",
+        "name",
+        "nativeUnit"
+    ],
+    "properties": {
+        "anatomicalAxesOrientation": {
+            "_instruction": "Add the axes orientation denoted in standard anatomical terms of direction (stated as XYZ) for this custom coordinate space.",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/controlledTerms/AnatomicalAxesOrientation"
+            ],
+            "description": "Relation between reference planes used in anatomy and mathematics.",
+            "title": "anatomicalAxesOrientation"
+        },
+        "axesOrigin": {
+            "type": "array",
+            "maxItems": 3,
+            "minItems": 2,
+            "uniqueItems": true,
+            "_instruction": "Enter the origin of this custom coordinate space (central point where axes intersect; 2D: [x, y] or 3D:[x, y, z]).",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/QuantitativeValue"
+            ],
+            "description": "Special point in a coordinate system used as a fixed point of reference for the geometry of the surrounding space.",
+            "title": "axesOrigin"
+        },
+        "defaultImage": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "_instruction": "Add one or several image files used as visual representation of this custom coordinate space.",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/core/File"
+            ],
+            "description": "Two or three dimensional image that particluarly represents a specific coordinate space.",
+            "title": "defaultImage"
+        },
+        "name": {
+            "type": "string",
+            "_instruction": "Enter a descriptive name for this custom coordinate space.",
+            "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+            "title": "name"
+        },
+        "nativeUnit": {
+            "_instruction": "Add the native unit that is used for this custom coordinate space.",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
+            ],
+            "description": "Determinate quantity used in the original measurement.",
+            "title": "nativeUnit"
+        }
+    },
+    "_deprecated": true
+}

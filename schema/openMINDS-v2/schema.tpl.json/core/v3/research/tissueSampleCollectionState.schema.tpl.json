@@ -1,0 +1,46 @@
+{
+    "_type": "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
+    "properties": {
+        "additionalRemarks": {
+            "type": "string",
+            "_instruction": "Enter additional remarks about the specimen (set) in this state.",
+            "description": "Mention of what deserves additional attention or notice.",
+            "title": "additionalRemarks"
+        },
+        "age": {
+            "_instruction": "Add the age of the specimen (set) in this state.",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/QuantitativeValue",
+                "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+            ],
+            "description": "Time of life or existence at which some particular qualification, capacity or event arises.",
+            "title": "age"
+        },
+        "lookupLabel": {
+            "type": "string",
+            "_instruction": "Enter a lookup label for this specimen (set) state that may help you to more easily find it again.",
+            "title": "lookupLabel"
+        },
+        "pathology": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "_instruction": "Add the pathology of the specimen (set) in this state.",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/controlledTerms/Disease",
+                "https://openminds.ebrains.eu/controlledTerms/DiseaseModel"
+            ],
+            "description": "Structural and functional deviation from the normal that constitutes a disease or characterizes a particular disease.",
+            "title": "pathology"
+        },
+        "weight": {
+            "_instruction": "Add the weight of the specimen (set) in this state.",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/QuantitativeValue",
+                "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+            ],
+            "description": "Amount that a thing or being weighs.",
+            "title": "weight"
+        }
+    }
+}

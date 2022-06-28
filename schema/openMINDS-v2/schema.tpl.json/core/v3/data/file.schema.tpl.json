@@ -1,0 +1,82 @@
+{
+    "_type": "https://openminds.ebrains.eu/core/File",
+    "required": [
+        "IRI",
+        "isPartOf",
+        "name"
+    ],
+    "properties": {
+        "content": {
+            "type": "string",
+            "_instruction": "Enter a short content description for this file instance.",
+            "description": "Something that is contained.",
+            "title": "content"
+        },
+        "fileRepository": {
+            "_instruction": "Add the over all repository to which this single file belongs.",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/core/FileRepository"
+            ],
+            "title": "fileRepository"
+        },
+        "format": {
+            "_instruction": "Add the content type of this file instance.",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/core/ContentType"
+            ],
+            "description": "Method of digitally organizing and structuring data or information.",
+            "title": "format"
+        },
+        "hash": {
+            "_instruction": "Add the hash that was generated for this file instance.",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/Hash"
+            ],
+            "description": "Term used for the process of converting any data into a single value. Often also directly refers to the resulting single value.",
+            "title": "hash"
+        },
+        "IRI": {
+            "type": "string",
+            "_formats": [
+                "iri"
+            ],
+            "_instruction": "Enter the internationalized resource identifier of this single file.",
+            "description": "Stands for Internationalized Resource Identifier which is an internet protocol standard that builds on the URI protocol, extending the set of permitted characters to include Unicode/ISO 10646.",
+            "title": "IRI"
+        },
+        "isPartOf": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "_instruction": "Add one or several bundles in which this single file can be grouped.",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/core/FileBundle"
+            ],
+            "description": "Reference to the ensemble of multiple things or beings.",
+            "title": "isPartOf"
+        },
+        "name": {
+            "type": "string",
+            "_instruction": "Enter the name of this single file.",
+            "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+            "title": "name"
+        },
+        "specialUsageRole": {
+            "_instruction": "Add a special usage role for this single file.",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/controlledTerms/FileUsageRole"
+            ],
+            "description": "Particular function of something when it is used.",
+            "title": "specialUsageRole"
+        },
+        "storageSize": {
+            "_instruction": "Enter the storage size this file instance allocates.",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/QuantitativeValue"
+            ],
+            "description": "Quantitative value defining how much disk space is used by an object on a computer system.",
+            "title": "storageSize"
+        }
+    },
+    "description": "Structured information on a file instances."
+}

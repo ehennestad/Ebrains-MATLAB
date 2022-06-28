@@ -1,0 +1,32 @@
+{
+    "_type": "https://openminds.ebrains.eu/sands/Electrode",
+    "required": [
+        "electrodeContact",
+        "internalIdentifier"
+    ],
+    "properties": {
+        "electrodeContact": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "_instruction": "Add one or several electrical contacts of this electrode.",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/sands/ElectrodeContact"
+            ],
+            "description": "Not shielded part of a conductor that is used to establish electrical contact with a nonmetallic part of a circuit.",
+            "title": "electrodeContact"
+        },
+        "internalIdentifier": {
+            "type": "string",
+            "_instruction": "Enter the identifier used for this electrode within the file it is stored in.",
+            "description": "Term or code that identifies someone or something within a particular product.",
+            "title": "internalIdentifier"
+        },
+        "lookupLabel": {
+            "type": "string",
+            "_instruction": "Enter a lookup label for this electrode that may help you to more easily find it again.",
+            "title": "lookupLabel"
+        }
+    },
+    "description": "Structured information on an electrode."
+}

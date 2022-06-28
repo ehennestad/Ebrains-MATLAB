@@ -1,0 +1,46 @@
+{
+    "_type": "https://openminds.ebrains.eu/core/License",
+    "required": [
+        "fullName",
+        "legalCode",
+        "shortName"
+    ],
+    "properties": {
+        "fullName": {
+            "type": "string",
+            "_instruction": "Enter the full name of this license.",
+            "description": "Whole, non-abbreviated name of something or somebody.",
+            "title": "fullName"
+        },
+        "legalCode": {
+            "type": "string",
+            "_formats": [
+                "iri"
+            ],
+            "_instruction": "Enter the internationalized resource identifier (IRI) pointing to the legal code of this license.",
+            "description": "Type of legislation that claims to cover the law system (complete or parts) as it existed at the time the code was enacted.",
+            "title": "legalCode"
+        },
+        "shortName": {
+            "type": "string",
+            "_instruction": "Enter the short name of this license.",
+            "description": "Shortened or fully abbreviated name of something or somebody.",
+            "title": "shortName"
+        },
+        "webpage": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "_instruction": "Enter one or several webpages related to this license (e.g. homepage).",
+            "items": {
+                "type": "string",
+                "_formats": [
+                    "iri"
+                ]
+            },
+            "description": "Hypertext document (block of information) found on the World Wide Web.",
+            "title": "webpage"
+        }
+    },
+    "description": "Structured information on a used license."
+}

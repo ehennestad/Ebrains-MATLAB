@@ -1,0 +1,88 @@
+{
+    "_type": "https://openminds.ebrains.eu/core/SubjectGroup",
+    "required": [
+        "biologicalSex",
+        "species",
+        "studiedState"
+    ],
+    "properties": {
+        "studiedState": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "_instruction": "Add all states in which this subject group was studied.",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/core/SubjectGroupState"
+            ],
+            "description": "Reference to a point in time at which something or someone was studied in a particular mode or condition.",
+            "title": "studiedState"
+        },
+        "additionalRemarks": {
+            "type": "string",
+            "_instruction": "Enter additional remarks about the specimen set.",
+            "description": "Mention of what deserves additional attention or notice.",
+            "title": "additionalRemarks"
+        },
+        "biologicalSex": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "_instruction": "Add the biological sex of all specimen in this set.",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/controlledTerms/BiologicalSex"
+            ],
+            "description": "Differentiation of individuals of most species (animals and plants) based on the type of gametes they produce.",
+            "title": "biologicalSex"
+        },
+        "internalIdentifier": {
+            "type": "string",
+            "_instruction": "Enter the identifier of this specimen set that is used within the corresponding data.",
+            "description": "Term or code that identifies someone or something within a particular product.",
+            "title": "internalIdentifier"
+        },
+        "lookupLabel": {
+            "type": "string",
+            "_instruction": "Enter a lookup label for this specimen set that may help you to more easily find it again.",
+            "title": "lookupLabel"
+        },
+        "phenotype": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "_instruction": "Add the phenotype of all specimen in this set.",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/controlledTerms/Phenotype"
+            ],
+            "description": "Physical expression of one or more genes of an organism.",
+            "title": "phenotype"
+        },
+        "quantity": {
+            "type": "integer",
+            "_instruction": "Enter the number of specimen that belong to this set.",
+            "description": "Total amount or number of things or beings.",
+            "title": "quantity"
+        },
+        "species": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "_instruction": "Add the species of all specimen in this set.",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/controlledTerms/Species"
+            ],
+            "description": "Category of biological classification comprising related organisms or populations potentially capable of interbreeding, and being designated by a binomial that consists of the name of a genus followed by a Latin or latinized uncapitalized noun or adjective.",
+            "title": "species"
+        },
+        "strain": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "_instruction": "Add the strain of all specimen in this set.",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/controlledTerms/Strain"
+            ],
+            "description": "Group of presumed common ancestry with physiological but usually not morphological distinctions.",
+            "title": "strain"
+        }
+    }
+}
